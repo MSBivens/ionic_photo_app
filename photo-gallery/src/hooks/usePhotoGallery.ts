@@ -98,8 +98,8 @@ export function usePhotoGallery() {
   };
 
   return {
-    deletePhoto,
     photos,
+    deletePhoto,
     takePhoto
   };
 }
